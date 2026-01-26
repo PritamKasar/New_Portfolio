@@ -15,7 +15,7 @@ function About() {
                         Who I am?
                     </p>
                     <p className="text-gray-200 text-sm lg:text-lg">
-                        I’m Pritam Kasar, a passionate and results-driven Full Stack Developer skilled in Python, Django, React.js, and SQL. I specialize in building scalable, high-performance web applications with clean user interfaces and efficient backend systems. With a solid foundation in Data Structures, OOP, and Computer Networks, I enjoy solving real-world problems through technology and continuously exploring new tools to enhance development efficiency and user experience.                    </p>
+                       I’m Pritam Kasar, a passionate and results-driven Full Stack Developer skilled in Python, Django, React.js, and SQL, with growing expertise in Data Science and Machine Learning. I specialize in building scalable, high-performance web applications with clean user interfaces and efficient backend systems. With a solid foundation in Data Structures, OOP, and Computer Networks, I enjoy solving real-world problems through technology and continuously exploring AI-driven solutions to enhance development efficiency and user experience.                  </p>
                 </div>
                 <div className="flex justify-center order-1 lg:order-2">
                     <img
