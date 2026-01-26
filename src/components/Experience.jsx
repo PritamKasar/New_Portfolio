@@ -8,12 +8,19 @@ import lottieFile from '../assets/Study.json'
 function Experience() {
 
 const experience = [
-  {
+   {
     id: 1,
+    title: 'Full Stack Associate',
+    company: "Audviklabs Pvt. Ltd.",
+    duration: "Oct 2025 - Present"
+  },
+  {
+    id: 2,
     title: 'Full Stack Developer Intern',
     company: "Samyak Software Pvt. Ltd.",
     duration: "Jan 2025 - June 2025"
   }
+ 
 ]
   return (
     <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">

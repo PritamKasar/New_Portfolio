@@ -10,6 +10,11 @@ import Mysql from "../assets/mysql.svg"
 import Git from "../assets/git.svg"
 import Github from "../assets/git.svg"
 import Vite from "../assets/vitejs.svg"
+import TypeScript from "../assets/typescript.svg"
+import Redux from "../assets/redux.svg"
+import Postgress from "../assets/postgresql.svg"
+import TanStack from "../assets/tanstack.svg"
+import Docker from "../assets/docker.svg"
 
 function Skills() {
     const skillsData = [
@@ -18,12 +23,17 @@ function Skills() {
         ['CSS',Css],
         ['Tailwind',Tailwind],
         ['Javascript',Javascript],
+        ['TypeScript',TypeScript],
         ['Django',Django],
         ['React',React],
+        ['Redux',Redux],
         ['Vite',Vite],
+        ['TanStack',TanStack],
         ['MySQL',Mysql],
+        ['Postgress',Postgress],
         ['Git',Git],
-        ['GitHub',Github]
+        ['GitHub',Github],
+        ['Docker',Docker]
     ]
     return (
         <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
