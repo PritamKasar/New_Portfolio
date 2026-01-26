@@ -114,17 +114,27 @@ function Introduction() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Django</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">React js</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Redux</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Vite</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TanStack</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySQL</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PostgreSQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">GitHub</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
