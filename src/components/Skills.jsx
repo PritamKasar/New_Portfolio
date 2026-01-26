@@ -12,7 +12,7 @@ import Github from "../assets/git.svg"
 import Vite from "../assets/vitejs.svg"
 import TypeScript from "../assets/typescript.svg"
 import Redux from "../assets/redux.svg"
-import Postgress from "../assets/postgresql.svg"
+import PostgreSQL from "../assets/postgresql.svg"
 import TanStack from "../assets/tanstack.svg"
 import Docker from "../assets/docker.svg"
 
@@ -30,7 +30,7 @@ function Skills() {
         ['Vite',Vite],
         ['TanStack',TanStack],
         ['MySQL',Mysql],
-        ['Postgress',Postgress],
+        ['PostgreSQL',PostgreSQL],
         ['Git',Git],
         ['GitHub',Github],
         ['Docker',Docker]
