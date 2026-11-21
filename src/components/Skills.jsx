@@ -15,25 +15,33 @@ import Redux from "../assets/redux.svg"
 import PostgreSQL from "../assets/postgresql.svg"
 import TanStack from "../assets/tanstack.svg"
 import Docker from "../assets/docker.svg"
+import Fastapi from "../assets/fastapi.svg"
+import LangChain from "../assets/langchain.svg"
+import HuggingFace from "../assets/huggingface.svg"
+import Mcp from "../assets/mcp.svg"
 
 function Skills() {
     const skillsData = [
-        ['Python',Python],
-        ['HTML',Html],
-        ['CSS',Css],
-        ['Tailwind',Tailwind],
-        ['Javascript',Javascript],
-        ['TypeScript',TypeScript],
-        ['Django',Django],
-        ['React',React],
-        ['Redux',Redux],
-        ['Vite',Vite],
-        ['TanStack',TanStack],
-        ['MySQL',Mysql],
-        ['PostgreSQL',PostgreSQL],
-        ['Git',Git],
-        ['GitHub',Github],
-        ['Docker',Docker]
+        ['Python', Python],
+        ['Django', Django],
+        ['Fast API', Fastapi],
+        ["LangChain", LangChain],
+        ["HuggingFace", HuggingFace],
+        ["MCP", Mcp],
+        ['MySQL', Mysql],
+        ['PostgreSQL', PostgreSQL],
+        ['HTML', Html],
+        ['CSS', Css],
+        ['Tailwind', Tailwind],
+        ['Javascript', Javascript],
+        ['TypeScript', TypeScript],
+        ['React', React],
+        ['Redux', Redux],
+        ['Vite', Vite],
+        ['TanStack', TanStack],
+        ['Git', Git],
+        ['GitHub', Github],
+        ['Docker', Docker]
     ]
     return (
         <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">

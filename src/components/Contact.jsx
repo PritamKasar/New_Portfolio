@@ -54,7 +54,7 @@ function Contact() {
 
         try {
             setIsLoading(true);
-            toast.success("Message sent successfully!",parameters);
+            toast.success("Message sent successfully!", parameters);
             setUserInput({
                 name: "",
                 email: "",
@@ -171,7 +171,7 @@ function Contact() {
                                 size={36}
                             />
                             <span>
-                                Karvenagar, Pune, Maharastra
+                                Pune, Maharastra
                             </span>
                         </p>
                     </div>
@@ -200,7 +200,7 @@ function Contact() {
                                 size={48}
                             />
                         </Link>
-                        
+
                     </div>
                 </div>
             </div>
