@@ -7,21 +7,27 @@ import lottieFile from '../assets/Study.json'
 
 function Experience() {
 
-const experience = [
-   {
-    id: 1,
-    title: 'Full Stack Associate',
-    company: "Audviklabs Pvt. Ltd.",
-    duration: "Oct 2025 - Present"
-  },
-  {
-    id: 2,
-    title: 'Full Stack Developer Intern',
-    company: "Samyak Software Pvt. Ltd.",
-    duration: "Jan 2025 - June 2025"
-  }
- 
-]
+  const experience = [
+    {
+      id: 1,
+      title: 'Full Stack Developer Intern',
+      company: "Samyak Software Pvt. Ltd.",
+      duration: "Jan 2025 - June 2025"
+    },
+    {
+      id: 2,
+      title: 'Full Stack Associate',
+      company: "Audviklabs Pvt. Ltd.",
+      duration: "Oct 2025 - April 2026"
+    },
+    {
+      id: 3,
+      title: 'Backend Engineer',
+      company: "Tata Consultancy Services",
+      duration: "April 2026 - Present"
+    }
+
+  ]
   return (
     <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <img
@@ -58,8 +64,8 @@ const experience = [
           <div>
             <div className="flex flex-col gap-6">
               {
-                experience.map(experience => (
-                <article className={`h-fit cursor-pointer border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}>
+                experience.reverse().map(experience => (
+                  <article className={`h-fit cursor-pointer border border-[#2a2e5a] transition-all duration-300 relative bg-[#101123] text-gray-200 rounded-xl hover:border-transparent w-full`}>
 
                     <div className="p-3 relative text-white">
                       <img
